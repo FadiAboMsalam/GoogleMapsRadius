@@ -121,7 +121,7 @@ function generateGeoJSONCircle(center, radius, numSides) {
 
 Map.prototype.sliderRedrawCircle = function(slider) {
 	var obj = this; //input while sliding
-	google.maps.event.addDomListener(slider, 'input', function() {
+	google.maps.event.addDomListener(slider, 'click', function() {
 		var sliderValue = parseInt(slider.value);
 		obj.radiusFromRangeSlider = sliderValue;
 		obj.markerClicked(obj.getCurrentMarker(), obj.map, sliderValue);
