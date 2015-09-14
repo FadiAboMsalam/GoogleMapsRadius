@@ -1,0 +1,70 @@
+ html,
+ body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+.wrapper{
+    margin-top:10px;
+    border:solid 1px red;
+    position :relative;
+    width: 100%;
+    margin: 0px auto;
+    height:100%;
+}
+#map {
+
+    position :absolute;
+    top:0;
+    left:250px;
+    bottom:0;
+    right:0;
+
+  border: 1px solid;
+}
+.leftDiv {
+  position : absolute;
+  top:0;
+  left:0;
+  width: 250px;    
+  height: 100%;
+}
+
+.list_item {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    float: left;
+    border: 1px solid gray;
+}
+#wrap {
+    width:200px;
+}
+/*.mapDiv {
+     height: 100%;
+     width:70%;
+ }
+ 
+ .slider {
+     margin: "6px";
+ }
+ 
+ .outerDiv {
+     background: 'yellow';
+     border: '1px solid';
+     cursor: 'pointer';
+     text-align: 'center';
+     margin: '10px';
+ }
+
+ 
+ .textDiv {
+     font-family: 'Arial,sans-serif';
+     font-size: '12px';
+     padding-left: '4px';
+     padding-right: '4px';
+ }*/
+ .select {
+     margin: "5px";
+ }

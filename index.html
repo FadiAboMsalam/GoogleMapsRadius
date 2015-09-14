@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="jquery.range.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="map"></div>
+        <div class="leftDiv">
+            <div id="wrap">
+            </div>
+        </div>
+    </div>
+    <div class="outerDiv" id="outerDiv">
+        <select id="select" class="select">
+        </select>
+        <label id="minValue"> </label>
+        <input id="slider" type="range" />
+        <label id="maxValue"></label>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAodpwXZrR1mnJPLoPpu38PgFwsQG07iW0&libraries=geometry">
+    </script>
+    <script src="mapService.js">
+    </script>
+    <script src="rangeSlider.js">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
